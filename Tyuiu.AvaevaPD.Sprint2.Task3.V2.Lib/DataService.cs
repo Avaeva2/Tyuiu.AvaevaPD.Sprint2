@@ -16,7 +16,7 @@ namespace Tyuiu.AvaevaPD.Sprint2.Task3.V2.Lib
 
             if (x > 3)
             {
-               y =  x - 12x + cosx;
+               y =  x - 12*x + Math.Cos(x);
             }
             else
             {
@@ -28,13 +28,13 @@ namespace Tyuiu.AvaevaPD.Sprint2.Task3.V2.Lib
                 {
                     if ((x > -6) && (x < 1))
                     {
-                         y = x^5 + 10x - (1/ x+3);
+                         y = Math.Pow(x,5) + 10*x - (1/Math.Sqrt( x+3));
                     }
                     else
                     {
                         if (x < -6)
                         {
-                             y = x + 10x - (1/x^4)
+                            y = x + 10 * x - (1 / Math.Pow(x, 4));
                         }
 
                     }
